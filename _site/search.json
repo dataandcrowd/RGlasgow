@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "3-presentations.html#components",
+    "href": "3-presentations.html#components",
+    "title": "Innovative Modelling Techniques in R:",
+    "section": "Components",
+    "text": "Components\n\nMetadata: YAML\nText: Markdown\nCode: Executed via knitr or jupyter\n\n\nWeave it all together, and you have a beautiful, functional slide deck!"
+  },
+  {
+    "objectID": "3-presentations.html#our-turn",
+    "href": "3-presentations.html#our-turn",
+    "title": "Innovative Modelling Techniques in R:",
+    "section": "Our turn",
+    "text": "Our turn\n\nLet’s build a presentation together from hello-penguins-slides.qmd and showcase the following features of Quarto presentations:\n\nHierarchy, headers, and document outline\nIncremental lists\nColumns and tabsets\nCode, output location, code highlighting\nLogo and footer\nMaking things fit on a slide\nChalkboard\nMultiplex\nPublishing your presentation to Quarto Pub"
+  },
+  {
+    "objectID": "3-presentations.html#your-turn",
+    "href": "3-presentations.html#your-turn",
+    "title": "Innovative Modelling Techniques in R:",
+    "section": "Your turn",
+    "text": "Your turn\n\nPick up where we left off and\n\nChange the transition style between slides\nChange the slide size\nAdd slide numbers"
+  },
+  {
+    "objectID": "3-presentations.html#our-turn-1",
+    "href": "3-presentations.html#our-turn-1",
+    "title": "Innovative Modelling Techniques in R:",
+    "section": "Our turn",
+    "text": "Our turn\n\nLet’s continue building our a presentation together from hello-penguins-slides.qmd and showcase the following features of Quarto presentations:\n\nFragments\nTitle slide attributes\nSpeaker notes"
+  },
+  {
+    "objectID": "3-presentations.html#quarto-presentation-formats",
+    "href": "3-presentations.html#quarto-presentation-formats",
+    "title": "Innovative Modelling Techniques in R:",
+    "section": "Quarto presentation formats",
+    "text": "Quarto presentation formats\n\nrevealjs for HTML slides\n\nEssentially the replacement for xaringan, but with Pandoc-native syntax\n\nbeamer for LaTeX slides\nPowerPoint for when you have to collaborate via MS Office"
+  },
+  {
+    "objectID": "3-presentations.html#learn-more",
+    "href": "3-presentations.html#learn-more",
+    "title": "Innovative Modelling Techniques in R:",
+    "section": "Learn more",
+    "text": "Learn more\n\nquarto.org/docs/presentations"
+  },
+  {
+    "objectID": "3-presentations.html#questions",
+    "href": "3-presentations.html#questions",
+    "title": "Innovative Modelling Techniques in R:",
+    "section": "Questions",
+    "text": "Questions\n\nAny questions / anything you’d like to review before we wrap up this module?\n\n\n\n🔗 dataandcrowd.github.io/RGlasgow"
+  }
+]

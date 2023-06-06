@@ -1,0 +1,71 @@
+project:
+  type: website
+  resources:
+    - exercises.zip
+
+website:
+  page-navigation: true
+  title: "Hello Quarto - A World of Possibilities (for Reproducible Publishing)"
+  description: "Monash University workshops on Quarto - June 2023"
+  favicon: "images/logo.png"
+
+  repo-url: https://github.com/mine-cetinkaya-rundel/quarto-monash
+  repo-actions: [edit, issue]
+
+  open-graph: true
+  twitter-card:
+    creator: "@minebocek"
+    image: "images/twitter-card.png"
+
+  sidebar:
+    background: "#00739d"
+    logo: "images/logo.png"
+    pinned: true
+    align: center
+    tools:
+      - icon: github
+        href: https://github.com/mine-cetinkaya-rundel/quarto-monash
+        text: "GitHub organization"
+      - icon: code-square
+        href: https://posit.cloud/spaces/377666/join?access_code=kp0V37Moc2WynUu8xZc_9c-sGFuEAqfDvXdhWTEX
+        text: "Posit Cloud"
+
+    style: docked
+    search: true
+    collapse-level: 2
+    contents:
+      - href: index.qmd
+        text: Home
+      - href: pre-work.qmd
+        text: Pre-work
+      - text: "---"
+      - href: 1-hello-quarto/index.qmd
+        text: Hello Quarto
+      - href: 2-documents/index.qmd
+        text: Documents
+      - href: 3-presentations/index.qmd
+        text: Presentations
+      - href: 4-articles/index.qmd
+        text: Articles
+      - href: 5-projects/index.qmd
+        text: Projects
+
+  page-footer:
+    right: "This page is built with 🩵 and [Quarto](https://quarto.org/)."
+    left: "&copy; Copyright 2023, Mine Çetinkaya-Rundel"
+    background: "#00739d"
+
+format:
+  html:
+    theme:
+      light: [cosmo, style/quarto-monash.scss]
+      dark: [cosmo, style/dark.scss, style/quarto-monash.scss]
+    toc: true
+    code-copy: true
+    code-overflow: wrap
+    mainfont: "Atkinson Hyperlegible"
+
+execute:
+  freeze: auto
+
+editor: visual
