@@ -1,12 +1,10 @@
 project:
   type: website
-  resources:
-    - exercises.zip
 
 website:
   page-navigation: true
-  title: "Hello Quarto - A World of Possibilities (for Reproducible Publishing)"
-  description: "Monash University workshops on Quarto - June 2023"
+  title: "R in Geospatial Analysis"
+  description: "RGlasgow - June 2023"
   favicon: "images/logo.png"
 
   repo-url: https://github.com/mine-cetinkaya-rundel/quarto-monash
@@ -24,11 +22,9 @@ website:
     align: center
     tools:
       - icon: github
-        href: https://github.com/mine-cetinkaya-rundel/quarto-monash
+        href: https://github.com/dataandcrowd/RGlasgow
         text: "GitHub organization"
-      - icon: code-square
-        href: https://posit.cloud/spaces/377666/join?access_code=kp0V37Moc2WynUu8xZc_9c-sGFuEAqfDvXdhWTEX
-        text: "Posit Cloud"
+      
 
     style: docked
     search: true
@@ -68,4 +64,4 @@ format:
 execute:
   freeze: auto
 
-editor: visual
+editor: source

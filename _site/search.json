@@ -1,51 +1,107 @@
 [
   {
-    "objectID": "3-presentations.html#components",
-    "href": "3-presentations.html#components",
-    "title": "Innovative Modelling Techniques in R:",
-    "section": "Components",
-    "text": "Components\n\nMetadata: YAML\nText: Markdown\nCode: Executed via knitr or jupyter\n\n\nWeave it all together, and you have a beautiful, functional slide deck!"
+    "objectID": "RGlasgow.html#i-am-a-geographer-interested-in",
+    "href": "RGlasgow.html#i-am-a-geographer-interested-in",
+    "title": "R in Geospatial Analysis:",
+    "section": "I am a Geographer Interested in…",
+    "text": "I am a Geographer Interested in…\n\n\nInterests\n\nTransport and Health\nAir Pollution\nPopulation Mobility\nCitizen Science\nChildren’s Physcial Activity\n\n\nTechniques\n\nGeospatial analysis\nAgent-based modelling (ABM)\nHPC: Cloud-based computing\nCrowdsourcing\nGPS and Mobility\n\n\n\n\nTools:"
   },
   {
-    "objectID": "3-presentations.html#our-turn",
-    "href": "3-presentations.html#our-turn",
-    "title": "Innovative Modelling Techniques in R:",
+    "objectID": "RGlasgow.html#facts-about-no2-exposure-did-you-know",
+    "href": "RGlasgow.html#facts-about-no2-exposure-did-you-know",
+    "title": "R in Geospatial Analysis:",
+    "section": "Facts about NO2 Exposure: Did you know?",
+    "text": "Facts about NO2 Exposure: Did you know?"
+  },
+  {
+    "objectID": "RGlasgow.html#methods-to-estimate-population-exposure",
+    "href": "RGlasgow.html#methods-to-estimate-population-exposure",
+    "title": "R in Geospatial Analysis:",
+    "section": "Methods to estimate ‘Population Exposure’",
+    "text": "Methods to estimate ‘Population Exposure’\nliterature review"
+  },
+  {
+    "objectID": "RGlasgow.html#methods-to-estimate-population-exposure-1",
+    "href": "RGlasgow.html#methods-to-estimate-population-exposure-1",
+    "title": "R in Geospatial Analysis:",
+    "section": "Methods to estimate ‘Population Exposure’",
+    "text": "Methods to estimate ‘Population Exposure’\n\n\nGeostatistical Modelling\n\nStatistical properties of the observations (e.g. Kriging)\nPros: Mathematically sound concept, quick implementation speed, easy data aggregation, and useful software\nCons: Artefacts, Not fully addressing small-scale variation, smoothed (no emission)\n\n\nAtmospheric Modelling\n\nMathematical assumptions to measure the impact of emission of atmosphere (e.g. CALPUFF)\nPros: Consider Meteorological Impact\nCons: Long execution, Requires lots of computational power and learning curve, Aggregated Measure, Multiple software"
+  },
+  {
+    "objectID": "RGlasgow.html#methods-to-estimate-population-exposure-2",
+    "href": "RGlasgow.html#methods-to-estimate-population-exposure-2",
+    "title": "R in Geospatial Analysis:",
+    "section": "Methods to estimate ‘Population Exposure’",
+    "text": "Methods to estimate ‘Population Exposure’\n\n\nGeostatistical Modelling\n\nStatistical properties of the observations (e.g. Kriging)\nPros: Mathematically sound concept, quick implementation speed, easy data aggregation, and useful software\nCons: Artefacts, Not fully addressing small-scale variation, smoothed (no emission)\n\n\n\nGiven we have a temporally rich but spatially poor pollution data, why don’t we start from a computationally light, reproducible, and mathematically sound model?"
+  },
+  {
+    "objectID": "RGlasgow.html#objective",
+    "href": "RGlasgow.html#objective",
+    "title": "R in Geospatial Analysis:",
+    "section": "Objective",
+    "text": "Objective\nTo develop an air pollution package in R that allows anyone to easily generate a pollution map\n\nTo examine small-scale variations that occur during SI prediction  To introduce a new road-scale spatial interpolation method that employs road weighting"
+  },
+  {
+    "objectID": "RGlasgow.html#roadmap",
+    "href": "RGlasgow.html#roadmap",
+    "title": "R in Geospatial Analysis:",
+    "section": "Roadmap",
+    "text": "Roadmap"
+  },
+  {
+    "objectID": "RGlasgow.html#modelling-with-universal-kriging",
+    "href": "RGlasgow.html#modelling-with-universal-kriging",
+    "title": "R in Geospatial Analysis:",
+    "section": "Modelling with Universal Kriging",
+    "text": "Modelling with Universal Kriging\nConsidering Small-scale Variability is needed => build a semivariogram\n\n“Closer things are more predictable and have less variability. While distant things are less predictable and are less related”.\n\n\nFor example, the air quality one meter ahead of you is more likely to be similar than 100 meters away.\n\n\nTo build a semivariogram, always remember we are looking at all distances between 2 samples and their variability"
+  },
+  {
+    "objectID": "RGlasgow.html#modelling-with-universal-kriging-1",
+    "href": "RGlasgow.html#modelling-with-universal-kriging-1",
+    "title": "R in Geospatial Analysis:",
+    "section": "Modelling with Universal Kriging",
+    "text": "Modelling with Universal Kriging\nSince NO2 varies substantially between nearby stations, it might be difficult to get a perfect empirical semivariogram. “AutoKrige” in the automap package might help us find near to the goodness-of-fit."
+  },
+  {
+    "objectID": "RGlasgow.html#our-turn",
+    "href": "RGlasgow.html#our-turn",
+    "title": "R in Geospatial Analysis:",
     "section": "Our turn",
     "text": "Our turn\n\nLet’s build a presentation together from hello-penguins-slides.qmd and showcase the following features of Quarto presentations:\n\nHierarchy, headers, and document outline\nIncremental lists\nColumns and tabsets\nCode, output location, code highlighting\nLogo and footer\nMaking things fit on a slide\nChalkboard\nMultiplex\nPublishing your presentation to Quarto Pub"
   },
   {
-    "objectID": "3-presentations.html#your-turn",
-    "href": "3-presentations.html#your-turn",
-    "title": "Innovative Modelling Techniques in R:",
+    "objectID": "RGlasgow.html#your-turn",
+    "href": "RGlasgow.html#your-turn",
+    "title": "R in Geospatial Analysis:",
     "section": "Your turn",
     "text": "Your turn\n\nPick up where we left off and\n\nChange the transition style between slides\nChange the slide size\nAdd slide numbers"
   },
   {
-    "objectID": "3-presentations.html#our-turn-1",
-    "href": "3-presentations.html#our-turn-1",
-    "title": "Innovative Modelling Techniques in R:",
+    "objectID": "RGlasgow.html#our-turn-1",
+    "href": "RGlasgow.html#our-turn-1",
+    "title": "R in Geospatial Analysis:",
     "section": "Our turn",
     "text": "Our turn\n\nLet’s continue building our a presentation together from hello-penguins-slides.qmd and showcase the following features of Quarto presentations:\n\nFragments\nTitle slide attributes\nSpeaker notes"
   },
   {
-    "objectID": "3-presentations.html#quarto-presentation-formats",
-    "href": "3-presentations.html#quarto-presentation-formats",
-    "title": "Innovative Modelling Techniques in R:",
+    "objectID": "RGlasgow.html#quarto-presentation-formats",
+    "href": "RGlasgow.html#quarto-presentation-formats",
+    "title": "R in Geospatial Analysis:",
     "section": "Quarto presentation formats",
     "text": "Quarto presentation formats\n\nrevealjs for HTML slides\n\nEssentially the replacement for xaringan, but with Pandoc-native syntax\n\nbeamer for LaTeX slides\nPowerPoint for when you have to collaborate via MS Office"
   },
   {
-    "objectID": "3-presentations.html#learn-more",
-    "href": "3-presentations.html#learn-more",
-    "title": "Innovative Modelling Techniques in R:",
+    "objectID": "RGlasgow.html#learn-more",
+    "href": "RGlasgow.html#learn-more",
+    "title": "R in Geospatial Analysis:",
     "section": "Learn more",
     "text": "Learn more\n\nquarto.org/docs/presentations"
   },
   {
-    "objectID": "3-presentations.html#questions",
-    "href": "3-presentations.html#questions",
-    "title": "Innovative Modelling Techniques in R:",
+    "objectID": "RGlasgow.html#questions",
+    "href": "RGlasgow.html#questions",
+    "title": "R in Geospatial Analysis:",
     "section": "Questions",
-    "text": "Questions\n\nAny questions / anything you’d like to review before we wrap up this module?\n\n\n\n🔗 dataandcrowd.github.io/RGlasgow"
+    "text": "Questions\n\nAny questions / anything you’d like to review before we wrap up this module?\n\n\n\n\n🔗 dataandcrowd.github.io/RGlasgow"
   }
 ]

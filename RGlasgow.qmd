@@ -1,18 +1,18 @@
 ---
-title: "Innovative Modelling Techniques in R:"
+title: "R in Geospatial Analysis:"
 subtitle: "Building Spatially Interpolated Air Pollution Field"
-institute: "SHW: University of Glasgow"
+institute: "MRC/CSO Social and Public Health Sciences Unit, University of Glasgow"
 author: "Dr. Hyesop Shin"
-date: "2023-06-09"
+date: "2023-09-06"
 footer: "[🔗 dataandcrowd.github.io/RGlasgow](https://dataandcrowd.github.io/RGlasgow)"
-#logo: "../images/logo.png"
+logo: "images/logo.png"
 format:
   revealjs:
     theme: style/slides.scss
     transition: fade
     slide-number: true
     chalkboard: true
-editor: visual
+editor: source
 execute:
   freeze: auto
   echo: true
@@ -29,19 +29,137 @@ options(width = 65)
 #library(countdown)
 ```
 
-# Anatomy of a Quarto presentation
+# About Myself
 
-## Components
+## I am a Geographer Interested in...
 
-1.  Metadata: YAML
+::: columns
+::: {.column width="50%"}
+#### Interests {style="color: orange;"}
 
-2.  Text: Markdown
+-   Transport and Health
+-   Air Pollution
+-   Population Mobility
+-   Citizen Science
+-   Children's Physcial Activity
+:::
 
-3.  Code: Executed via `knitr` or `jupyter`
+::: {.column width="50%"}
+#### Techniques {style="color: green;"}
 
-. . .
+-   Geospatial analysis
+-   Agent-based modelling (ABM)
+-   HPC: Cloud-based computing
+-   Crowdsourcing
+-   GPS and Mobility
+:::
+:::
 
-**Weave it all together**, and you have a beautiful, functional slide deck!
+<br>
+
+#### Tools:
+
+![](images/tools.png){.absolute top="510" left="150" width="500" height="60"}
+
+```{=html}
+<!----------------------------
+left for blank
+
+
+-->
+```
+# Context
+
+## Facts about NO2 Exposure: Did you know?
+
+![](images/slide1.png)
+
+## Methods to estimate 'Population Exposure'
+
+literature review
+
+## Methods to estimate 'Population Exposure'
+
+::: columns
+::: {.column width="50%"}
+#### Geostatistical Modelling {style="color: orange;"}
+
+-   Statistical properties of the observations (e.g. Kriging)
+-   Pros: Mathematically sound concept, quick implementation speed, easy data aggregation, and useful software
+-   Cons: Artefacts, Not fully addressing small-scale variation, smoothed (no emission)
+:::
+
+::: {.column width="50%"}
+#### Atmospheric Modelling {style="color: green;"}
+
+-   Mathematical assumptions to measure the impact of emission of atmosphere (e.g. CALPUFF)
+-   Pros: Consider Meteorological Impact
+-   Cons: Long execution, Requires lots of computational power and learning curve, Aggregated Measure, Multiple software
+:::
+:::
+
+## Methods to estimate 'Population Exposure'
+
+::: columns
+::: {.column width="50%"}
+#### Geostatistical Modelling {style="color: orange;"}
+
+-   Statistical properties of the observations (e.g. Kriging)
+-   Pros: Mathematically sound concept, quick implementation speed, easy data aggregation, and useful software
+-   Cons: Artefacts, Not fully addressing small-scale variation, smoothed (no emission)
+:::
+
+::: {.column width="50%"}
+<br>
+
+#### Given we have a temporally rich but spatially poor pollution data, why don't we start from a computationally light, reproducible, and mathematically sound model? {style="color: CornflowerBlue;"}
+:::
+:::
+
+## Objective
+
+To develop an air pollution package in R that allows anyone to easily generate a pollution map
+
+<p style="font-size:25px; margin-top: 2em;">
+
+To examine small-scale variations that occur during SI prediction <br> To introduce a new road-scale spatial interpolation method that employs road weighting
+
+</p>
+
+## Roadmap
+
+![](images/flow.png)
+
+<img src="images/rpackages.png" width="50%" height="50%"/>
+
+
+## Modelling with Universal Kriging {.scrollable}
+
+Considering Small-scale Variability is needed =\> build a *semivariogram*
+
+::: {.fragment}
+"**Closer things** are more predictable and have less variability. While **distant things** are less predictable and are less related".
+:::
+
+::: {.fragment}
+For example, the air quality one meter ahead of you is more likely to be similar than 100 meters away.
+:::
+
+::: {.fragment}
+To build a semivariogram, always remember we are looking at **all distances** between 2 samples and their **variability**
+:::
+
+![](images/semivariogram_concept.png)
+
+![](images/study-points-specific.png)
+
+
+## Modelling with Universal Kriging 
+
+Since NO~2~ varies substantially between nearby stations, it might be difficult to get a perfect empirical semivariogram. ["AutoKrige"]{style="color:red;"} in the `automap` package might help us find near to the goodness-of-fit.
+
+![](images/semivariogram.png)
+
 
 ## Our turn {.smaller}
 
