@@ -34,7 +34,5 @@ format:
     code-overflow: wrap
     mainfont: "Atkinson Hyperlegible"
 
-execute:
-  freeze: auto
 
 editor: source
