@@ -76,7 +76,7 @@ left for blank
 
 ## Methods to estimate 'Population Exposure'
 
-literature review
+![](images/litreview.png)
 
 ## Methods to estimate 'Population Exposure'
 
@@ -120,12 +120,10 @@ literature review
 
 To develop an air pollution package in R that allows anyone to easily generate a pollution map
 
-<p style="font-size:25px; margin-top: 2em;">
+* To examine small-scale variations that occur during SI prediction
+* To introduce a new road-scale spatial interpolation method that employs road weighting
 
-To examine small-scale variations that occur during SI prediction <br> To introduce a new road-scale spatial interpolation method that employs road weighting
-
-</p>
-
+# Method
 ## Roadmap
 
 ![](images/flow.png)
@@ -156,9 +154,25 @@ To build a semivariogram, always remember we are looking at **all distances** be
 
 ## Modelling with Universal Kriging 
 
-Since NO~2~ varies substantially between nearby stations, it might be difficult to get a perfect empirical semivariogram. ["AutoKrige"]{style="color:red;"} in the `automap` package might help us find near to the goodness-of-fit.
+Since NO~2~ varies substantially between nearby stations, it might be difficult to get a perfect empirical semivariogram.
+
+["AutoKrige"]{style="color:red;"} in the `automap` package might help us find near to the goodness-of-fit.
 
 ![](images/semivariogram.png)
+
+<!-- <p style="font-size:20px; "> Executed in R `gstats` package </p> -->
+
+## Daily Kriged Output...but too smoothed
+
+<br>
+
+![](images/kr_output.png)
+
+## Adding Road Weights
+<br>
+
+![](images/kr_road_concept.png)
+
 
 
 ## Our turn {.smaller}

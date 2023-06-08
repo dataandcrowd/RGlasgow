@@ -18,7 +18,7 @@
     "href": "RGlasgow.html#methods-to-estimate-population-exposure",
     "title": "R in Geospatial Analysis:",
     "section": "Methods to estimate ‘Population Exposure’",
-    "text": "Methods to estimate ‘Population Exposure’\nliterature review"
+    "text": "Methods to estimate ‘Population Exposure’"
   },
   {
     "objectID": "RGlasgow.html#methods-to-estimate-population-exposure-1",
@@ -39,7 +39,7 @@
     "href": "RGlasgow.html#objective",
     "title": "R in Geospatial Analysis:",
     "section": "Objective",
-    "text": "Objective\nTo develop an air pollution package in R that allows anyone to easily generate a pollution map\n\nTo examine small-scale variations that occur during SI prediction  To introduce a new road-scale spatial interpolation method that employs road weighting"
+    "text": "Objective\nTo develop an air pollution package in R that allows anyone to easily generate a pollution map\n\nTo examine small-scale variations that occur during SI prediction\nTo introduce a new road-scale spatial interpolation method that employs road weighting"
   },
   {
     "objectID": "RGlasgow.html#roadmap",
@@ -60,7 +60,21 @@
     "href": "RGlasgow.html#modelling-with-universal-kriging-1",
     "title": "R in Geospatial Analysis:",
     "section": "Modelling with Universal Kriging",
-    "text": "Modelling with Universal Kriging\nSince NO2 varies substantially between nearby stations, it might be difficult to get a perfect empirical semivariogram. “AutoKrige” in the automap package might help us find near to the goodness-of-fit."
+    "text": "Modelling with Universal Kriging\nSince NO2 varies substantially between nearby stations, it might be difficult to get a perfect empirical semivariogram.\n“AutoKrige” in the automap package might help us find near to the goodness-of-fit."
+  },
+  {
+    "objectID": "RGlasgow.html#daily-kriged-outputbut-too-smoothed",
+    "href": "RGlasgow.html#daily-kriged-outputbut-too-smoothed",
+    "title": "R in Geospatial Analysis:",
+    "section": "Daily Kriged Output…but too smoothed",
+    "text": "Daily Kriged Output…but too smoothed"
+  },
+  {
+    "objectID": "RGlasgow.html#adding-road-weights",
+    "href": "RGlasgow.html#adding-road-weights",
+    "title": "R in Geospatial Analysis:",
+    "section": "Adding Road Weights",
+    "text": "Adding Road Weights"
   },
   {
     "objectID": "RGlasgow.html#our-turn",

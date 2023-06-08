@@ -8,7 +8,7 @@
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.2.475">
+  <meta name="generator" content="quarto-1.2.335">
 
   <meta name="author" content="Dr.&nbsp;Hyesop Shin">
   <title>R in Geospatial Analysis - R in Geospatial Analysis:</title>
@@ -399,8 +399,8 @@ left for blank
 <img data-src="images/slide1.png" class="r-stretch"></section>
 <section id="methods-to-estimate-population-exposure" class="slide level2">
 <h2>Methods to estimate ‘Population Exposure’</h2>
-<p>literature review</p>
-</section>
+
+<img data-src="images/litreview.png" class="r-stretch"></section>
 <section id="methods-to-estimate-population-exposure-1" class="slide level2">
 <h2>Methods to estimate ‘Population Exposure’</h2>
 <div class="columns">
@@ -440,9 +440,15 @@ left for blank
 <section id="objective" class="slide level2">
 <h2>Objective</h2>
 <p>To develop an air pollution package in R that allows anyone to easily generate a pollution map</p>
-<p style="font-size:25px; margin-top: 2em;">
-</p><p>To examine small-scale variations that occur during SI prediction <br> To introduce a new road-scale spatial interpolation method that employs road weighting</p>
-<p></p>
+<ul>
+<li>To examine small-scale variations that occur during SI prediction</li>
+<li>To introduce a new road-scale spatial interpolation method that employs road weighting</li>
+</ul>
+</section></section>
+<section>
+<section id="method" class="title-slide slide level1 center">
+<h1>Method</h1>
+
 </section>
 <section id="roadmap" class="slide level2">
 <h2>Roadmap</h2>
@@ -466,9 +472,21 @@ left for blank
 </section>
 <section id="modelling-with-universal-kriging-1" class="slide level2">
 <h2>Modelling with Universal Kriging</h2>
-<p>Since NO<sub>2</sub> varies substantially between nearby stations, it might be difficult to get a perfect empirical semivariogram. <span style="color:red;">“AutoKrige”</span> in the <code>automap</code> package might help us find near to the goodness-of-fit.</p>
+<p>Since NO<sub>2</sub> varies substantially between nearby stations, it might be difficult to get a perfect empirical semivariogram.</p>
+<p><span style="color:red;">“AutoKrige”</span> in the <code>automap</code> package might help us find near to the goodness-of-fit.</p>
 
+<!-- <p style="font-size:20px; "> Executed in R `gstats` package </p> -->
 <img data-src="images/semivariogram.png" class="r-stretch"></section>
+<section id="daily-kriged-outputbut-too-smoothed" class="slide level2">
+<h2>Daily Kriged Output…but too smoothed</h2>
+<p><br></p>
+
+<img data-src="images/kr_output.png" class="r-stretch"></section>
+<section id="adding-road-weights" class="slide level2">
+<h2>Adding Road Weights</h2>
+<p><br></p>
+
+<img data-src="images/kr_road_concept.png" class="r-stretch"></section>
 <section id="our-turn" class="slide level2 smaller">
 <h2>Our turn</h2>
 <div class="task">
