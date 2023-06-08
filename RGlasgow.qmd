@@ -3,19 +3,17 @@ title: "R in Geospatial Analysis:"
 subtitle: "Building Spatially Interpolated Air Pollution Field"
 institute: "MRC/CSO Social and Public Health Sciences Unit, University of Glasgow"
 author: "Dr. Hyesop Shin"
-date: "2023-09-06"
+date: "June 9th 2023"
 footer: "[🔗 dataandcrowd.github.io/RGlasgow](https://dataandcrowd.github.io/RGlasgow)"
 logo: "images/logo.png"
 format:
   revealjs:
     theme: style/slides.scss
     transition: fade
+    css: style/quarto-monash.scss
+    preview-links: auto
     slide-number: true
-    chalkboard: true
 editor: source
-execute:
-  freeze: auto
-  echo: true
 ---
 
 ```{r}
