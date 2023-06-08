@@ -175,84 +175,40 @@ Since NO~2~ varies substantially between nearby stations, it might be difficult 
 
 
 
-## Our turn {.smaller}
-
-::: task
-Let's build a presentation together from `hello-penguins-slides.qmd` and showcase the following features of Quarto presentations:
-
--   Hierarchy, headers, and document outline
-
--   Incremental lists
-
--   Columns and tabsets
-
--   Code, output location, code highlighting
-
--   Logo and footer
-
--   Making things fit on a slide
-
--   Chalkboard
-
--   Multiplex
-
--   Publishing your presentation to Quarto Pub
-:::
-
-## Your turn
-
-::: task
-Pick up where we left off and
-
--   Change the [transition style](https://quarto.org/docs/presentations/revealjs/advanced.html#slide-transitions) between slides
-
--   Change the [slide size](https://quarto.org/docs/presentations/revealjs/advanced.html#presentation-size)
-
--   Add [slide numbers](https://quarto.org/docs/presentations/revealjs/presenting.html#slide-numbers)
-:::
-
-```{r}
-#| echo: false
-
-#countdown(minutes = 5)
-```
-
-## Our turn
-
-::: task
-Let's continue building our a presentation together from `hello-penguins-slides.qmd` and showcase the following features of Quarto presentations:
-
--   Fragments
-
--   Title slide attributes
-
--   Speaker notes
-:::
 
 # Wrap up
 
-## Quarto presentation formats
+## Summary
 
--   [`revealjs`](https://quarto.org/docs/presentations/revealjs) for HTML slides
 
-    -   Essentially the replacement for `xaringan`, but with Pandoc-native syntax
+::: {.panel-tabset}
 
--   [`beamer`](https://quarto.org/docs/presentations/beamer.html) for LaTeX slides
+### Modelling Population Exposure to Air Pollution
 
--   [PowerPoint](https://quarto.org/docs/presentations/powerpoint.html) for when you *have to* collaborate via MS Office
+- When modelling population exposure, accurate prediction of NO~2~ is key. 
+- No golden rules for method choice, but for finer temporal intervals, you have to consider small-scale variability even more
+- Finer temporal population is helpful (e.g. Daytime/Nighttime Population)
 
-## Learn more
+### Understanding the R Ecosystem is important for public use
 
-::: learn-more
-[quarto.org/docs/presentations](https://quarto.org/docs/presentations)
+* Like other computer languages, R Ecosystem changes continuously. 
+* Making the best use case is to add the road weight with the **“big brothers”** e.g. `tibble`, `sf`, `dplyr`
 
-```{=html}
-<iframe src="https://quarto.org/docs/presentations/" width="100%" height="500" style="border:2px solid #123233;" title="Quarto Presentations"></iframe>
-```
 :::
 
-## Questions
+## Next Steps
+<br>
 
-::: task
-Any questions / anything you'd like to review before we wrap up this module?
-:::
+![](images/package.png)
+
+
+
+## Thank You!
+- Email: hyesop.shin@glasgow.ac.uk
+- Twitter: @hyesop
+
+<br>
+
+#### Any questions or comments?
+
+

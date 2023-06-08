@@ -77,45 +77,24 @@
     "text": "Adding Road Weights"
   },
   {
-    "objectID": "RGlasgow.html#our-turn",
-    "href": "RGlasgow.html#our-turn",
+    "objectID": "RGlasgow.html#summary",
+    "href": "RGlasgow.html#summary",
     "title": "R in Geospatial Analysis:",
-    "section": "Our turn",
-    "text": "Our turn\n\nLet’s build a presentation together from hello-penguins-slides.qmd and showcase the following features of Quarto presentations:\n\nHierarchy, headers, and document outline\nIncremental lists\nColumns and tabsets\nCode, output location, code highlighting\nLogo and footer\nMaking things fit on a slide\nChalkboard\nMultiplex\nPublishing your presentation to Quarto Pub"
+    "section": "Summary",
+    "text": "Summary\n\nModelling Population Exposure to Air PollutionUnderstanding the R Ecosystem is important for public use\n\n\n\nWhen modelling population exposure, accurate prediction of NO2 is key.\nNo golden rules for method choice, but for finer temporal intervals, you have to consider small-scale variability even more\nFiner temporal population is helpful (e.g. Daytime/Nighttime Population)\n\n\n\n\nLike other computer languages, R Ecosystem changes continuously.\nMaking the best use case is to add the road weight with the “big brothers” e.g. tibble, sf, dplyr"
   },
   {
-    "objectID": "RGlasgow.html#your-turn",
-    "href": "RGlasgow.html#your-turn",
+    "objectID": "RGlasgow.html#next-steps",
+    "href": "RGlasgow.html#next-steps",
     "title": "R in Geospatial Analysis:",
-    "section": "Your turn",
-    "text": "Your turn\n\nPick up where we left off and\n\nChange the transition style between slides\nChange the slide size\nAdd slide numbers"
+    "section": "Next Steps",
+    "text": "Next Steps"
   },
   {
-    "objectID": "RGlasgow.html#our-turn-1",
-    "href": "RGlasgow.html#our-turn-1",
+    "objectID": "RGlasgow.html#thank-you",
+    "href": "RGlasgow.html#thank-you",
     "title": "R in Geospatial Analysis:",
-    "section": "Our turn",
-    "text": "Our turn\n\nLet’s continue building our a presentation together from hello-penguins-slides.qmd and showcase the following features of Quarto presentations:\n\nFragments\nTitle slide attributes\nSpeaker notes"
-  },
-  {
-    "objectID": "RGlasgow.html#quarto-presentation-formats",
-    "href": "RGlasgow.html#quarto-presentation-formats",
-    "title": "R in Geospatial Analysis:",
-    "section": "Quarto presentation formats",
-    "text": "Quarto presentation formats\n\nrevealjs for HTML slides\n\nEssentially the replacement for xaringan, but with Pandoc-native syntax\n\nbeamer for LaTeX slides\nPowerPoint for when you have to collaborate via MS Office"
-  },
-  {
-    "objectID": "RGlasgow.html#learn-more",
-    "href": "RGlasgow.html#learn-more",
-    "title": "R in Geospatial Analysis:",
-    "section": "Learn more",
-    "text": "Learn more\n\nquarto.org/docs/presentations"
-  },
-  {
-    "objectID": "RGlasgow.html#questions",
-    "href": "RGlasgow.html#questions",
-    "title": "R in Geospatial Analysis:",
-    "section": "Questions",
-    "text": "Questions\n\nAny questions / anything you’d like to review before we wrap up this module?\n\n\n\n\n🔗 dataandcrowd.github.io/RGlasgow"
+    "section": "Thank You!",
+    "text": "Thank You!\n\nEmail: hyesop.shin@glasgow.ac.uk\nTwitter: @hyesop\n\n\nAny questions or comments?\n\n\n\n🔗 dataandcrowd.github.io/RGlasgow"
   }
 ]
