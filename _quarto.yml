@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   page-navigation: true
@@ -7,12 +8,9 @@ website:
   description: "RGlasgow - June 2023"
   favicon: "images/logo.png"
 
-  repo-url: https://github.com/mine-cetinkaya-rundel/quarto-monash
-  repo-actions: [edit, issue]
-
   open-graph: true
   twitter-card:
-    creator: "@minebocek"
+    creator: "@hyesop"
     image: "images/twitter-card.png"
 
   sidebar:
@@ -25,31 +23,6 @@ website:
         href: https://github.com/dataandcrowd/RGlasgow
         text: "GitHub organization"
       
-
-    style: docked
-    search: true
-    collapse-level: 2
-    contents:
-      - href: index.qmd
-        text: Home
-      - href: pre-work.qmd
-        text: Pre-work
-      - text: "---"
-      - href: 1-hello-quarto/index.qmd
-        text: Hello Quarto
-      - href: 2-documents/index.qmd
-        text: Documents
-      - href: 3-presentations/index.qmd
-        text: Presentations
-      - href: 4-articles/index.qmd
-        text: Articles
-      - href: 5-projects/index.qmd
-        text: Projects
-
-  page-footer:
-    right: "This page is built with 🩵 and [Quarto](https://quarto.org/)."
-    left: "&copy; Copyright 2023, Mine Çetinkaya-Rundel"
-    background: "#00739d"
 
 format:
   html:
