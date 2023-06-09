@@ -59,13 +59,11 @@ options(width = 65)
 
 ![](images/tools.png){.absolute top="510" left="150" width="500" height="60"}
 
-```{=html}
-<!----------------------------
-left for blank
+## Retirement of geospatial packages
+![](images/retireGIS.png)
 
 
--->
-```
+
 # Context
 
 ## Facts about NO~2~ Exposure: Did you know?
