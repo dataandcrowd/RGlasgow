@@ -3,7 +3,7 @@ title: "R in Geospatial Analysis:"
 subtitle: "Building Spatially Interpolated Air Pollution Field"
 institute: "MRC/CSO Social and Public Health Sciences Unit, University of Glasgow"
 author: "Dr. Hyesop Shin"
-date: "June 9th 2023"
+date: "2023-06-09"
 footer: "[🔗 dataandcrowd.github.io/RGlasgow](https://dataandcrowd.github.io/RGlasgow)"
 logo: "images/logo.png"
 format:
@@ -68,7 +68,7 @@ left for blank
 ```
 # Context
 
-## Facts about NO2 Exposure: Did you know?
+## Facts about NO~2~ Exposure: Did you know?
 
 ![](images/slide1.png)
 
@@ -129,25 +129,35 @@ To develop an air pollution package in R that allows anyone to easily generate a
 <img src="images/rpackages.png" width="50%" height="50%"/>
 
 
-## Modelling with Universal Kriging {.scrollable}
-
-Considering Small-scale Variability is needed =\> build a *semivariogram*
+## From Points to Areas 
+* How are we going to create an air pollution field, given a set of points?
+* What is the distribution of air pollution?
+* How does the air quality in one station relate to the other ones?
 
 ::: {.fragment}
-"**Closer things** are more predictable and have less variability. While **distant things** are less predictable and are less related".
+Spatial Autocorrelation: "**Closer things** are more predictable and have less variability. While **distant things** are less predictable and are less related".
 :::
 
 ::: {.fragment}
 For example, the air quality one meter ahead of you is more likely to be similar than 100 meters away.
 :::
 
-::: {.fragment}
-To build a semivariogram, always remember we are looking at **all distances** between 2 samples and their **variability**
-:::
+
+
+
+
+## Modelling with Universal Kriging {.scrollable}
+* How do we create a systematic map? => build a *semivariogram*
+
+![](images/study-points-specific.png)
+
+<!--Considering Small-scale Variability is needed =\> build a *semivariogram*-->
+
+* To build a semivariogram, always remember we are looking at **all distances** between 2 samples and their **variability**
 
 ![](images/semivariogram_concept.png)
 
-![](images/study-points-specific.png)
+
 
 
 ## Modelling with Universal Kriging 
@@ -171,6 +181,12 @@ Since NO~2~ varies substantially between nearby stations, it might be difficult 
 
 ![](images/kr_road_concept.png)
 
+
+# Code Demonstration
+
+## Code Demonstration
+
+![](images/rcode-typing.gif)
 
 
 
