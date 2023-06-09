@@ -133,15 +133,12 @@ To develop an air pollution package in R that allows anyone to easily generate a
 * How does the air quality in one station relate to the other ones?
 
 ::: {.fragment}
-Spatial Autocorrelation: "**Closer things** are more predictable and have less variability. While **distant things** are less predictable and are less related".
-:::
-
-::: {.fragment}
 For example, the air quality one meter ahead of you is more likely to be similar than 100 meters away.
 :::
 
-
-
+::: {.fragment}
+Spatial Autocorrelation: "**Closer things** are more predictable and have less variability. While **distant things** are less predictable and are less related".
+:::
 
 
 ## Modelling with Universal Kriging {.scrollable}
